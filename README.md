@@ -9,4 +9,5 @@ HTML
 GIT
 
 tbh no idea wtf im doing
-
+Design Philosophy:
+https://motherfuckingwebsite.com/
