@@ -1,0 +1,149 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    
+}
+
+body {
+    background: radial-gradient(#13293D, #0B3459);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    background-color: #8F857D;
+    margin-top: 100px;
+    padding: 20px;
+ 
+}
+
+.profile {
+    display: flex;
+    /* Flexbox for profile section */
+}
+.decoration-top-left {
+    width: 200px;
+    height: 200px;
+    background: url('assests/Triangles.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.decoration-bottom-right {
+    width: 200px;
+    height: 200px;
+    background: url('assests/Triangles.png') no-repeat;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    position: absolute;
+    transform: rotate(0deg);
+    /* Adjust rotation if needed */
+}
+.PFP {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 150px;
+
+    overflow: hidden;
+    border: 5px solid #fff;
+        /* White border */
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        /* White shadow */
+}
+
+.PFP img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    margin-top: 20px;
+    font-size: 90px;
+    margin-left: 20px;
+}
+.intro {
+
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    width: 70%;
+    /* Add spacing between profile picture and text */
+    color: #fff;
+}
+
+
+#contact a{
+ 
+    margin-left: 30px;
+    font-size: 30px;  
+    background-color: #1C6E8C;
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+nav {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul li {
+    display: inline;
+    list-style: none;
+
+    
+        font-size: 30px;
+
+}
+
+
+nav ul li a {
+ 
+    text-decoration: none;
+background-color: #D9D9D9;
+    color: black;
+    padding-left:100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+
+    position: relative;
+    
+}
+nav ul li a::after{
+    
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: +4px;
+}
+nav ul li a:hover::after{
+    
+    width: 100%;
+    transition: width 0.3s;
+}
