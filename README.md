@@ -8,7 +8,6 @@ CSS
 HTML
 GIT
 
-tbh no idea wtf im doing
 
 things to fix:
 making it look good
